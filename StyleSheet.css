@@ -3,7 +3,8 @@
     text-align:center;
     font-family:'Mongolian Baiti';
 }
-.TitelImage {
+.TitelImage 
+{
     margin: 1em;
     width: 100em;
     height: 15em;
@@ -12,25 +13,31 @@
     margin-left:auto;
     margin-right: auto;
 }
-.ListImage {
-    height: 10%;
+.ListImage 
+{
+    height: 15em;
 }
 h1
 {
     font-size: 3em;
 }
-h2 
+.ListText
+{
+    font-size:1.5em;
+}
+.IntroInfo 
 {
     font-size: 1.7em;
     width:15em;
 }
-.Div1
+.ListDiv
 {
-    margin: 1em;
+    margin: 1.5em;
+    width: 25em; 
 }
-h2,
-.Div1,
-.InfoImage
+.IntroInfo,
+.ListDiv,
+.InfoImage 
 {
     display: inline-block;
 }
