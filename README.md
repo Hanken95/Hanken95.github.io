@@ -1,5 +1,5 @@
 Uppgiftskrav:
-*- En ruta med en bild och lite allmän information om ämnet.
+- En ruta med en bild och lite allmän information om ämnet.
 * En lista med information om egenskaper på eran produkt.
 * Några paragrafer om produkten.
 * Sidan ska kunna visas på widescreen, men också telefon.
