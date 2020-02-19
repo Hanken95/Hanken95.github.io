@@ -3,41 +3,93 @@
     text-align:center;
     font-family:'Mongolian Baiti';
 }
-.TitelImage 
+#TitelImage 
 {
     margin: 1em;
-    width: 100em;
-    height: 15em;
+    width: 75em;
+    height: 12.5em;
     align-self: center;
     display: block;
     margin-left:auto;
     margin-right: auto;
 }
+#MainTitel
+{
+    font-size: 3em;
+}
+.IntroInfo 
+{
+    vertical-align:top;
+    align-items: normal;
+    border-bottom: 10em;
+    font-size: 1.7em;
+    width: 15em;
+    margin-top: 3.3em;
+    margin-left: 1.4em;
+}
+#GrandparentDiv 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#ParentDiv 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ChildrenDiv {
+    margin: 1em;
+    width: 25em;
+    display: inline-flex;
+    flex-direction: column;
+}
 .ListImage 
 {
     height: 15em;
-}
-h1
-{
-    font-size: 3em;
 }
 .ListText
 {
     font-size:1.5em;
 }
-.IntroInfo 
-{
-    font-size: 1.7em;
-    width:15em;
-}
-.ListDiv
-{
-    margin: 1.5em;
-    width: 25em; 
-}
 .IntroInfo,
-.ListDiv,
 .InfoImage 
 {
     display: inline-block;
 }
+.GeneralInfo
+{
+    font-size:2em;
+    font-family:'Yu Gothic'
+}
+.Inline
+{
+    display:inline;
+}
+ @media only screen and (max-width: 1225px)
+{
+    #TitelImage 
+    {
+        width: 48em;
+        height: 8em;
+    }   
+    #GrandparentDiv
+    {
+        flex-direction:row;
+    }
+    #ParentDiv 
+    {
+        flex-direction: column;
+    }
+    .InfoImage
+    {
+        width: 30em;
+        align-self: center;
+    }
+    .IntroInfo
+    {
+        align-self: center;
+    }
+}
+
